@@ -1,0 +1,85 @@
+@font-face {
+  font-family: workSansB;
+  src: url(assets/fonts/static/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: workSansR;
+  src: url(assets/fonts/static/WorkSans-Regular.ttf);
+}
+@font-face {
+  font-family: workSansS;
+  src: url(assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+body {
+  font-family: workSansR;
+  background-color: hsl(275, 100%, 97%);
+  background-image: url('assets/images/background-pattern-desktop.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 1500px;
+}
+.attribution {
+  position: static;
+  bottom: 5px;
+}
+.image-background {
+  background-image: url('assets/images/background-pattern-desktop.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.faq-block {
+  background-color: white;
+  border-radius: 14px;
+  font-size: 16px;
+  width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 30px;
+}
+.title {
+  font-weight: 900;
+  font-size: 40px;
+  color: hsl(292, 42%, 14%);
+  align-items: center;
+  padding-left: 10px;
+}
+.star {
+  padding: 5px;
+}
+.entete {
+  display: flex;
+  padding: 15px 0px;
+}
+#question {
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+  display: flex;
+}
+.t1:hover {
+  color: rgb(173, 40, 235);
+}
+#c1, #c2, #c3, #c4 {
+  color: hsl(292, 16%, 49%);
+}
+hr {
+  color: hsl(275, 100%, 97%);
+  opacity: 30%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.switch {
+  align-items: flex-end;
+  width: 80%;
+  cursor: pointer;
+  flex: 1;
+}
+.t1 {
+  flex: 1;
+  cursor: pointer;
+}
